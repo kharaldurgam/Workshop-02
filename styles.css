@@ -1,0 +1,74 @@
+/*Padding & Margin Task */
+p{
+
+    padding: 20px;
+    margin: 15px 0;
+    background-color: #f0f0f0;
+    border: 1px solid #171515;
+    border-left: 4px solid black;
+    max-width: 600px;
+    border-radius: 5px;
+    font-size: 2em;
+    color: blue;
+} 
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 0px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #27bb2e;
+}
+
+ol, ul {
+    background-color: rgb(212, 239, 239);
+    max-width: 200px;
+    border-radius: 4px;
+    height: fit-content;
+   height: 100px;
+   align-content: center;
+}
